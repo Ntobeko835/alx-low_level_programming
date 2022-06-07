@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/cvorrect)
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 {
@@ -11,7 +11,8 @@ int main(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar('\n');
-		return (0);
+		putchar(i);
 	}
+	putchar('\n');
+	return (0);
 }
