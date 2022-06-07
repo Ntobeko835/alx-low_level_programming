@@ -1,4 +1,2 @@
 #!/bin/bash
 gcc -S -masm=intel $CFILE
-//explanation here
-{ https://stackoverflow.com/questions/199966/how-do-you-use-gcc-to-generate-assembly-code-in-intel-syntax }
