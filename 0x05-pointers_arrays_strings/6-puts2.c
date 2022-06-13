@@ -9,8 +9,8 @@ void puts2(char *str)
 	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
-			printf(str[i]);
+			_putchar(str[i]);
 		i++;
 	}
-	printf('\n');
+	_putchar('\n');
 }
