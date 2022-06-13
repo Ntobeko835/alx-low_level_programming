@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints array of integers
- * @*a: parameter
+ * @a: parameter
  * @n: parameter
  */
 void print_array(int *a, int n)
