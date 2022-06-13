@@ -19,6 +19,6 @@ int main(void)
 		j += i;
 		printf("%c", i);
 	}
-	printf("\c", (2772 - j));
+	printf("%c\n", (2772 - j));
 	return (0);
 }
