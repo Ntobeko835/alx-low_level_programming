@@ -2,7 +2,7 @@
 /**
  * _strcpy - copies strings
  * @dest: parameter
- * @src: parameter
+ * @srs: parameter
  *Return: char
  */
 char *_strcpy(char *dest, char *srs)
