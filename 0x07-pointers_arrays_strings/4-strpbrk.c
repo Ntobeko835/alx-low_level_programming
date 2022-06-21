@@ -5,23 +5,25 @@
  * @accept: string to be searched
  * Return: Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found (soln)
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int k;
+	int j;
 
 	while (*s != '\0')
 	{
+		j = 0;
+		while (accept[j] != '\0')
 		{
-			if (*s == accept[k])
+			if (*s == accept[j])
 			{
 				return (s);
 			}
 
-			k++;
+			j++;
 		}
 
 		s++;
 	}
-
 	return (0);
 }
