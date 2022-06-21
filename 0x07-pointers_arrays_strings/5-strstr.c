@@ -4,7 +4,7 @@
  * @haystack: main string being searched
  * @needle: is being searched for in a haystack
  * Return: return 0
- * */
+ */
 
 char *_strstr(char *haystack, char *needle)
 {
@@ -20,9 +20,14 @@ char *_strstr(char *haystack, char *needle)
 			haystack++;
 			str2++;
 		}
+
 		if (*str2 == '\0')
+		{
 			return (str1);
+		}
+
 		haystack = str1 + 1;
 	}
+
 	return (0);
 }
