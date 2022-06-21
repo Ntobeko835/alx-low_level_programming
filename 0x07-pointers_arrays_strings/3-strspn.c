@@ -3,13 +3,13 @@
  * _strspn - gets the length of a prefix substring
  * @s: segment of strings
  * @accept: bytes of a string
- * Return: count
+ * Return: return count
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
-	int soln = 0;
+	int count = 0;
 	char *str1, *str2;
 
 	str1 = s;
