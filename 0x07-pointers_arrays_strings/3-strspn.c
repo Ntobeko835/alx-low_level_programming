@@ -4,7 +4,7 @@
  * @s: segment of strings
  * @accept: bytes of a string
  * Return: count
- **/
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
