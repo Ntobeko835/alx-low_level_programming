@@ -1,0 +1,2 @@
+initial programm
+my readme
