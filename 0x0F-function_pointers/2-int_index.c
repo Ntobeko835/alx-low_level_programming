@@ -1,3 +1,4 @@
+#include "2-main.c"
 #include "function_pointers.h"
 /**
  * int_index - searches for an interger
