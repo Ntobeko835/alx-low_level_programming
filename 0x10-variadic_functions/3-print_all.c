@@ -3,6 +3,7 @@
  * print_all - prints all
  * @format: parameter
  */
+
 void print_all(const char * const format, ...)
 {
 	va_list valist;
@@ -24,7 +25,7 @@ void print_all(const char * const format, ...)
 		}
 		switch (format[i])
 		{
-		case 'C':
+		case 'c':
 			printf("%c", va_arg(valist, int)), k = 1;
 			break;
 		case 'i':
