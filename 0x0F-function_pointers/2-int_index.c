@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "2-main.c"
 #include "function_pointers.h"
 /**
