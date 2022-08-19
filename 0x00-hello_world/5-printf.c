@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - beg 
- * 
- * Return: stop
+ * main - entry point
+ *
+ * Return: ending
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
